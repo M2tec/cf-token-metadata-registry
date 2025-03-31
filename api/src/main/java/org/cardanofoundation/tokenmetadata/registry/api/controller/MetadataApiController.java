@@ -49,6 +49,31 @@ public class MetadataApiController implements MetadataApi {
     }
 
     @Override
+    public ResponseEntity<BatchResponse> getAll(final BatchRequest body) {
+        try {
+            if (body.getSubjects().isEmpty()) {
+                final BatchResponse response = new BatchResponse();
+                return new ResponseEntity<>(response, HttpStatus.OK);
+            } else {
+                final Map<String, TokenMetadata> subjects = v1ApiMetadataIndexer.findAllSubjects(
+                        body.getSubjects(),
+                        body.getProperties() == null ? List.of() : body.getProperties());
+                if (subjects.isEmpty()) {
+                    return new ResponseEntity<>(HttpStatus.NO_CONTENT);
+                } else {
+                    final BatchResponse response = new BatchResponse();
+                    response.setSubjects(new ArrayList<>(subjects.values()));
+                    return new ResponseEntity<>(response, HttpStatus.OK);
+                }
+            }
+
+        } catch (final IllegalArgumentException e) {
+            return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
+        }
+    }
+
+
+    @Override
     public ResponseEntity<TokenMetadata> getAllPropertiesForSubject(final String subject) {
         try {
             return v1ApiMetadataIndexer

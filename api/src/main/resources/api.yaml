@@ -90,6 +90,29 @@ paths:
           description: Invalid `body`
           content: {}
       x-codegen-request-body-name: body
+  /metadata/sync:
+    post:
+      tags:
+        - v1 queries
+      summary: "Sync Metadata Query"
+      operationId: "getAll"
+      requestBody:
+        content:
+          application/json;charset=utf-8:
+            schema:
+              $ref: '#/components/schemas/BatchRequest'
+        required: true
+      responses:
+        200:
+          description: ""
+          content:
+            application/json;charset=utf-8:
+              schema:
+                $ref: '#/components/schemas/BatchResponse'
+        400:
+          description: Invalid `body`
+          content: {}
+      x-codegen-request-body-name: body      
   /v2/subjects/{subject}:
     get:
       summary: "Query all properties or specified properties of the given subject"

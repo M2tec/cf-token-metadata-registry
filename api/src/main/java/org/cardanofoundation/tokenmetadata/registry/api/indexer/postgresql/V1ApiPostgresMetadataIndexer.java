@@ -62,6 +62,7 @@ public class V1ApiPostgresMetadataIndexer implements V1ApiMetadataIndexer {
         return metadata;
     }
 
+
     /**
      * Convert a list of MetadataQueryResult's to response entities.
      *
@@ -79,6 +80,17 @@ public class V1ApiPostgresMetadataIndexer implements V1ApiMetadataIndexer {
     public Map<String, TokenMetadata> findSubjectsSelectProperties(List<String> subjects, List<String> properties) {
         final SqlParameterSource params = new MapSqlParameterSource(Map.ofEntries(entry("subjects", subjects)));
         final String queryStatement = String.format("%s WHERE subject in (:subjects)", MetadataQueryResult.DEFAULT_QUERY_STRING);
+        final List<MetadataQueryResult> queryResults = jdbcTemplate.query(queryStatement,
+                params,
+                (rs, rowNum) -> MetadataQueryResult.fromSubjectAndPropertiesResultSet(rs));
+        return metadataFromQueryResults(queryResults, properties);
+    }
+
+    @Override
+    public Map<String, TokenMetadata> findAllSubjects(List<String> subjects, List<String> properties) {
+        properties = Arrays.asList("name");
+        final SqlParameterSource params = new MapSqlParameterSource(Map.ofEntries(entry("subjects", subjects)));
+        final String queryStatement = String.format("%s", MetadataQueryResult.DEFAULT_QUERY_STRING);
         final List<MetadataQueryResult> queryResults = jdbcTemplate.query(queryStatement,
                 params,
                 (rs, rowNum) -> MetadataQueryResult.fromSubjectAndPropertiesResultSet(rs));
