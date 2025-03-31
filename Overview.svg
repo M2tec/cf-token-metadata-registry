@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="Overview.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.3266287"
+     inkscape:cx="269.48006"
+     inkscape:cy="405.16234"
+     inkscape:window-width="2289"
+     inkscape:window-height="1253"
+     inkscape:window-x="26"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible"
+       id="Arrow2"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Arrow2"
+       markerWidth="7.6999998"
+       markerHeight="5.5999999"
+       viewBox="0 0 7.7 5.6"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="arrow2L" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-size:6.27506px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';fill:none;stroke:#ffffff;stroke-width:1.19058;stroke-linecap:square;stroke-linejoin:round;stroke-opacity:0.692743"
+       x="8.8268652"
+       y="28.523703"
+       id="text1879-2"><tspan
+         sodipodi:role="line"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.19058;stroke-opacity:1"
+         x="8.8268652"
+         y="28.523703"
+         id="tspan2342">MetadataApi.java</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:5.6964px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';fill:none;stroke:#ffffff;stroke-width:1.08079;stroke-linecap:square;stroke-linejoin:round;stroke-opacity:0.692743"
+       x="8.0356922"
+       y="12.490823"
+       id="text1879-2-6"><tspan
+         sodipodi:role="line"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.08079;stroke-opacity:1"
+         x="8.0356922"
+         y="12.490823"
+         id="tspan2342-0">api/src/main/java/org/cardanofoundation/tokenmetadata/registry/api/</tspan><tspan
+         sodipodi:role="line"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.08079;stroke-opacity:1"
+         x="8.0356922"
+         y="19.611322"
+         id="tspan6755">/controller</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:5.6964px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';fill:none;stroke:#ffffff;stroke-width:1.08079;stroke-linecap:square;stroke-linejoin:round;stroke-opacity:0.692743"
+       x="7.3323264"
+       y="94.8013"
+       id="text1879-2-6-7"><tspan
+         sodipodi:role="line"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.08079;stroke-opacity:1"
+         x="7.3323264"
+         y="94.8013"
+         id="tspan2342-0-9">/indexer/postgresql</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:6.27506px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';fill:none;stroke:#ffffff;stroke-width:1.19058;stroke-linecap:square;stroke-linejoin:round;stroke-opacity:0.692743"
+       x="14.499742"
+       y="35.52066"
+       id="text1879-6-0"><tspan
+         sodipodi:role="line"
+         id="tspan1877-2-9"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.19058;stroke-opacity:1"
+         x="14.499742"
+         y="35.52066">http://..../metadata/sync -&gt; getAll</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:6.27506px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';fill:none;stroke:#ffffff;stroke-width:1.19058;stroke-linecap:square;stroke-linejoin:round;stroke-opacity:0.692743"
+       x="12.730104"
+       y="104.30238"
+       id="text1879-2-2"><tspan
+         sodipodi:role="line"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.19058;stroke-opacity:1"
+         x="12.730104"
+         y="104.30238"
+         id="tspan2342-6">V1ApiPostgresMetadataIndexer.java</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:6.27506px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';fill:none;stroke:#ffffff;stroke-width:1.19058;stroke-linecap:square;stroke-linejoin:round;stroke-opacity:0.692743"
+       x="18.402981"
+       y="111.29934"
+       id="text1879-6-0-1"><tspan
+         sodipodi:role="line"
+         id="tspan1877-2-9-8"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.19058;stroke-opacity:1"
+         x="18.402981"
+         y="111.29934">findSubjectsSelectProperties</tspan><tspan
+         sodipodi:role="line"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.19058;stroke-opacity:1"
+         x="18.402981"
+         y="119.14317"
+         id="tspan7549">findAllSubjects</tspan></text>
+    <g
+       id="g3607"
+       transform="translate(12.699963,8.1166867)">
+      <text
+         xml:space="preserve"
+         style="font-size:4.6919px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';fill:none;stroke:#ffffff;stroke-width:0.890201;stroke-linecap:square;stroke-linejoin:round;stroke-opacity:0.692743"
+         x="73.833237"
+         y="56.84523"
+         id="text1879"><tspan
+           sodipodi:role="line"
+           id="tspan1877"
+           style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.890201;stroke-opacity:1"
+           x="73.833237"
+           y="56.84523">MetadataApiController.java</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:4.6919px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';fill:none;stroke:#ffffff;stroke-width:0.890201;stroke-linecap:square;stroke-linejoin:round;stroke-opacity:0.692743"
+         x="78.072777"
+         y="62.1492"
+         id="text1879-6"><tspan
+           sodipodi:role="line"
+           id="tspan1877-2"
+           style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.890201;stroke-opacity:1"
+           x="78.072777"
+           y="62.1492">getAll</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:4.6919px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';fill:none;stroke:#ffffff;stroke-width:0.890201;stroke-linecap:square;stroke-linejoin:round;stroke-opacity:0.692743"
+         x="82.668396"
+         y="67.510445"
+         id="text1879-6-9"><tspan
+           sodipodi:role="line"
+           id="tspan1877-2-1"
+           style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.890201;stroke-opacity:1"
+           x="82.668396"
+           y="67.510445">v1ApiMetadataIndexer.findSubjectsSelectProperties</tspan></text>
+    </g>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.949291;stroke-linecap:square;stroke-linejoin:round;stroke-opacity:0.692743;marker-end:url(#Arrow2)"
+       d="M 68.714936,40.483298 C 68.041921,53.993415 60.682494,54.420085 81.549125,66.90733"
+       id="path2512"
+       sodipodi:nodetypes="cc" />
+  </g>
+</svg>
